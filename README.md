@@ -38,9 +38,11 @@
 ---
 
 ## 🎥 Demo
+*Main UI*
+![app.py](docs/ui.png) 
+*Result*
+![alt text](docs/result.png)
 
-![Application Screenshot](https://via.placeholder.com/800x500/2a2d37/ffffff?text=YouTube+Q%26A+App+Screenshot)  
-*Replace with actual screenshot*
 
 ---
 
@@ -56,8 +58,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/youtube-qa-rag.git
-cd youtube-qa-rag
+https://github.com/pande17827/YouTube-Video-Q-A-with-RAG.git
+cd YouTube-Video-Q-A-with-RAG
 
 # Create virtual environment
 python -m venv venv
@@ -114,8 +116,13 @@ youtube-qa-rag/
 ├── README.md             # This documentation
 ├── .env.example          # Environment variables template
 ├── docs/                 # Documentation assets
-│   ├── app-screenshot.png
-│   └── architecture.png
+|   └── final_result.png
+|   └── Question_Answering.png
+│   ├── result.png
+│   └── setiing.png
+|   └── Text_preprocessing.png
+|   └── transcript Extraction.png
+|   └── ui.png
 └── .gitignore            # Git ignore rules
 ```
 
@@ -126,6 +133,11 @@ youtube-qa-rag/
 ### 1. Video Processing Pipeline
 🎥 **Pipeline**  
 The project includes a robust video processing pipeline designed to handle everything from ingestion to analysis.
+![alt text](<docs/transcript Extraction.png>
+)
+![alt text](docs/Text_preprocessing.png)
+![alt text](docs/Question_Answering.png)
+
 
 ### 2. 🛠️ Customizable Components
 
@@ -219,9 +231,10 @@ Implement new database connectors in the `create_vector_store()` function to int
 
 ## 📸 Screenshots
 
-| **Settings Panel**       | **Answer Display**       |
-|--------------------------|--------------------------|
-| ![Settings](Settings)    | ![Answer](Answer)        |
+| **Settings Panel**       | **Answer Display**         |
+|--------------------------|----------------------------|
+| ![Settings](docs/setting.png) | ![Answer](docs/final_result.png) |
+|
 
 ---
 
@@ -256,9 +269,9 @@ This project is distributed under the **MIT License**. See the [LICENSE](LICENSE
 
 Feel free to reach out with any questions or suggestions:
 
-- **Your Name**: [@yourtwitter](https://twitter.com/yourtwitter)  
-- **Email**: [your.email@example.com](mailto:your.email@example.com)  
-- **Project Link**: [GitHub Repository](https://github.com/yourusername/youtube-qa-rag)
+- **Your Name**: [Vikas Kumar](https://twitter.com/yourtwitter)  
+- **Email**: [pande.17827@gmail.com](mailto:your.email@example.com)  
+- **Project Link**: https://github.com/pande17827/YouTube-Video-Q-A-with-RAG.git
 
 ---
 
